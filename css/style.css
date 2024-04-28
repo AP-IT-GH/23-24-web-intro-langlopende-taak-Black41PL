@@ -1,0 +1,60 @@
+html, body {
+  box-sizing: border-box;
+  background-color: #1A191C;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #B2AEBF;
+  height: 100%;
+  width: 100%;
+}
+a, a:hover {
+  text-decoration: none;
+  color: #7c5cf0
+  ;
+}
+
+.adpurple, span{
+  color: #7c5cf0
+  ;
+}
+
+nav {
+  background-color: #3DD9A0;
+}
+
+footer {
+  background-color: #141316;
+}
+
+.img2 {
+  height: 300px;
+  width: 500px;
+}
+
+h3, .h3 {
+  font-size:25px;
+}
+
+.img3 {
+  height: 600px;
+  width: 1000px;
+}
+
+.logo {
+  width: 100px; 
+  transition: transform 0.3s ease; 
+}
+
+.logo:hover {
+  transform: scale(1.1); 
+}
+
+.socials .list-inline-item a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.socials .list-inline-item a:hover {
+  transform: translateY(-5px);
+}
